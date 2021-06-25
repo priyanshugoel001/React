@@ -13,10 +13,10 @@ const user ={
 // let {age} = user;
 // console.log(age);
 
-//degree
- let {education} = user;
- console.log(degree);
+// let degree;
+//  let {education} = user;
+//  console.log(degree);
 
-//school name
-// let {education:{school:{name}}}=user;
-// console.log(name);
+// school name
+let {education:{school:{name:schoolname}}}=user;
+console.log(schoolname);
