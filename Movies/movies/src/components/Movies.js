@@ -54,10 +54,10 @@ export default class Movies extends Component {
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Title</th>
-                                    <th scope="col">Genre</th>
-                                    <th scope="col">
+                                    <th scope="col-md-3">#</th>
+                                    <th scope="col-md-3">Title</th>
+                                    <th scope="col-md-3">Genre</th>
+                                    <th scope="col-md-3">
                                     <i class="fa fa-sort-asc" aria-hidden="true"></i>
                                         Stock
                                         <i class="fa fa-sort-desc" aria-hidden="true"></i>
